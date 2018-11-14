@@ -9,6 +9,5 @@ def dictionary(key)
   "at" => "@", 
   "and" => "&"
   }
-  if key ==
-  
+  return short_hash[key]
 end
