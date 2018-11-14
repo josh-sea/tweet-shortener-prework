@@ -46,7 +46,8 @@ end
 def shortened_tweet_truncator(tweet)
   shortened_tweet = []
   if tweet.size > 140
-    shortened_tweet = tweet.split("")
+    shortened_tweet = word_substituter(tweet)
+    shortened_tweet.split("")
       until shortened_tweet.length == 140
         shortened_tweet.pop
       end
