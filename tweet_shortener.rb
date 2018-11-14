@@ -36,7 +36,8 @@ def bulk_tweet_shortener(array)
 end
 
 def selective_tweet_shortener(tweet)
-  if 
+  tweet_array = tweet.split(" ")
+  if tweet_array.length <= 140
 end
 
 def shortened_tweet_truncator
