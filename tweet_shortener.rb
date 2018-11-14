@@ -14,3 +14,9 @@ def dictionary(key)
   }
   return short_hash[key]
 end
+
+def word_substituter(tweet)
+  tweet_array = tweet.split(" ")
+  for i in 0...tweet_array.length 
+    
+end
