@@ -50,6 +50,7 @@ def shortened_tweet_truncator(tweet)
       until shortened_tweet.length == 140
         shortened_tweet.pop
       end
+      shortened_tweet.push("...")
       shortened_tweet.join(" ")
-    end
+  end
 end
