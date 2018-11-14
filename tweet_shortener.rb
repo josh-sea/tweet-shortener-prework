@@ -17,6 +17,7 @@ end
 
 def word_substituter(tweet)
   tweet_array = tweet.split(" ")
+  short_tweet = []
   for i in 0...tweet_array.length 
     if dictionary(i) != nil 
       tweet_array(i) = dictionary(tweet_array(i))
