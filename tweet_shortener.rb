@@ -1,5 +1,5 @@
 # Write your code here.
-def dictionary
+def dictionary(key)
   short_hash = {
   "hello" => 'hi',
   "to, two, too" => '2', 
@@ -9,7 +9,6 @@ def dictionary
   "at" => "@", 
   "and" => "&"
   }
-  short_hash
-  
+  if key ==
   
 end
