@@ -36,14 +36,6 @@ def selective_tweet_shortener
   
 end
 
-def bulk_tweet_shortener
-  
-end
-
-def bulk_tweet_shortener
-  
-end
-
-def bulk_tweet_shortener
+def shortened_tweet_truncator
   
 end
