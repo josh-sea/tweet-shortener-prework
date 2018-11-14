@@ -44,6 +44,8 @@ def selective_tweet_shortener(tweet)
       until shortened_tweet.length == 140
         shortened_tweet.pop
       end
+      shortened_tweet.join(" ")
+    end
   else
     return tweet
   end
