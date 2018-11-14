@@ -38,7 +38,8 @@ end
 def selective_tweet_shortener(tweet)
   tweet_array = tweet.split(" ")
   if tweet_array.size > 140
-    word_substituter(tweet)
+    shortened_tweet = word_substituter(tweet)
+    if shortened_tweet >
   else
     return tweet
   end
